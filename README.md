@@ -3,7 +3,6 @@
 This project implements the UI/UX for setting up a chatbot for new businesses using React and Tailwind CSS.
 
 ## Project Structure
-\`\`\`
 beyondchats/
 ├── frontend/
 │   ├── public/
@@ -22,7 +21,6 @@ beyondchats/
 │   ├── tailwind.config.js
 │   └── postcss.config.js
 └── README.md
-\`\`\`
 
 ## Features
 - **User Registration**
