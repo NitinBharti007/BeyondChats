@@ -17,7 +17,7 @@ const Registration = () => {
       setStep(2);
     } else {
       try {
-        const response = await axios.post("http://localhost:5000/verify-email", { code });
+        const response = await axios.post("https://beyondchats-s0qx.onrender.com/verify-email", { code });
         if (response.data.success) {
           navigate("/setup-organization");
         } else {
