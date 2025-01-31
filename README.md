@@ -2,26 +2,6 @@
 
 This project implements the UI/UX for setting up a chatbot for new businesses using React and Tailwind CSS.
 
-## Project Structure
-beyondchats/
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Registration.js
-│   │   │   ├── OrganizationSetup.js
-│   │   │   ├── ChatbotIntegration.js
-│   │   │   ├── ScrapingStatus.js
-│   │   │   ├── SuccessScreen.js
-│   │   │   └── FailureScreen.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── index.css
-│   ├── package.json
-│   ├── tailwind.config.js
-│   └── postcss.config.js
-└── README.md
-
 ## Features
 - **User Registration**
   - Enter name, email, password
