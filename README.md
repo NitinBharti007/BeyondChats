@@ -24,17 +24,17 @@ This project implements the UI/UX for setting up a chatbot for new businesses us
 ## Installation & Setup
 1. **Clone the repository**
    ```
-   git clone https://github.com/NitinBharti63/beyondchats-ui.git
+   git clone https://github.com/NitinBharti007/BeyondChats.git
    cd beyondchats/frontend
    
-3. **Install dependencies**
+2. **Install dependencies**
    ```
    npm install
    
-4. **Run the development server**
-5. ```
+3. **Run the development server**
+   ```
    npm start
-6. **Build for production**
+4. **Build for production**
    ```
    npm run build
 
