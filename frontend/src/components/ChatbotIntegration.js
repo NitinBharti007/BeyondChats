@@ -14,8 +14,8 @@ const ChatbotIntegration = () => {
   };
 
   const IntegrationModal = () => (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-      <div className="bg-white p-6 rounded-lg w-96">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center px-4">
+      <div className="bg-white p-6 rounded-lg w-full max-w-md">
         <div className="flex mb-4">
           <button
             className={`flex-1 p-2 ${activeTab === "code" ? "bg-blue-500 text-white" : "bg-gray-200"}`}
@@ -34,8 +34,8 @@ const ChatbotIntegration = () => {
         {activeTab === "code" ? (
           <div>
             <p className="mb-2">Add this code to your website's &lt;head&gt;:</p>
-            <div className="bg-gray-100 p-4 rounded mb-4 relative">
-              <code>{'<script src="https://cdn.beyondchats.com/chatbot.js"></script>'}</code>
+            <div className="bg-gray-100 p-4 rounded mb-4 relative overflow-auto">
+              <code className="break-words block">{'<script src="https://cdn.beyondchats.com/chatbot.js"></script>'}</code>
               <button
                 className="absolute top-2 right-2 text-blue-500"
                 onClick={() => navigator.clipboard.writeText('<script src="https://cdn.beyondchats.com/chatbot.js"></script>')}
