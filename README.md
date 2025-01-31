@@ -2,6 +2,7 @@
 
 This project implements the UI/UX for setting up a chatbot for new businesses using React and Tailwind CSS.
 
+[Live Demo](https://beyond-chats-henna.vercel.app/)
 ## Features
 - **User Registration**
   - Enter name, email, password
