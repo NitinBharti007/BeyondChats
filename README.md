@@ -1,6 +1,29 @@
+cat <<EOF > README.md
 # BeyondChats UI
 
-This project implements the UI/UX for setting up a chatbot for new businesses using React and Tailwind CSS.
+BeyondChats is a chatbot company. This project implements the UI/UX for setting up a chatbot for new businesses using React and Tailwind CSS.
+
+## Project Structure
+\`\`\`
+beyondchats/
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Registration.js
+│   │   │   ├── OrganizationSetup.js
+│   │   │   ├── ChatbotIntegration.js
+│   │   │   ├── ScrapingStatus.js
+│   │   │   ├── SuccessScreen.js
+│   │   │   └── FailureScreen.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── index.css
+│   ├── package.json
+│   ├── tailwind.config.js
+│   └── postcss.config.js
+└── README.md
+\`\`\`
 
 ## Features
 - **User Registration**
@@ -24,7 +47,7 @@ This project implements the UI/UX for setting up a chatbot for new businesses us
 ## Installation & Setup
 1. **Clone the repository**
    \`\`\`sh
-   git clone https://github.com/your-username/beyondchats-ui.git
+   git clone https://github.com/NitinBharti63/beyondchats-ui.git
    cd beyondchats/frontend
    \`\`\`
 2. **Install dependencies**
@@ -52,4 +75,6 @@ If you'd like to contribute, feel free to fork this repository, create a feature
 This project is licensed under the MIT License.
 
 ## Contact
-For any inquiries, please reach out to [your-dev.nitin63@gmail.com](mailto:dev.nitin63@gmail.com).
+For any inquiries, please reach out to [dev.nitin63@gmail.com](mailto:dev.nitin63@gmail.com).
+
+EOF
