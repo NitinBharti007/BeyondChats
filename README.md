@@ -6,7 +6,7 @@ This project implements the UI/UX for setting up a chatbot for new businesses us
 - **User Registration**
   - Enter name, email, password
   - Continue with Google (UI only)
-  - Email verification step
+  - Email verification step (Use 123456 as a dummy OTP)
 - **Organization Setup**
   - Enter company name, website URL, and description
   - Auto-fetch meta description (UI placeholder for now)
